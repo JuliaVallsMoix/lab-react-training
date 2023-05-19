@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* A partir d'aquí jo: */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
