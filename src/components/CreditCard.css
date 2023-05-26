@@ -2,13 +2,28 @@
     display: flex;
 }
 
-.card {
+.card-credit-card {
     margin: 1rem;
     width: 100rem;
-    height: 10rem;
+    height: 13rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-logo {
-    width: 1rem;
-    height: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+.div-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.number {
+    font-size: 2rem;
+    text-align: center;
 }

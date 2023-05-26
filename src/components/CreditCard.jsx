@@ -10,11 +10,11 @@ export default function CreditCard({ type, number, expirationMonth, expirationYe
   // We could do it as well with expirationYear.toString().substring(2);
 
     return (
-        <div className="card" style={{ backgroundColor: `${bgColor}`, color: `${color}` }} >
-          <div>
+        <div className="card-credit-card" style={{ backgroundColor: `${bgColor}`, color: `${color}` }} >
+          <div className='div-logo'>
             <img className="card-logo" src={type === 'Master Card' ? masterCardLogo : visaLogo} />
           </div>
-          <div> {number} </div>
+          <div className='number'> {number} </div>
           <div>
             <span>Expires {expirationMonth}/{expirationYearTwoDigits} </span>
             <span> {bank} </span>
