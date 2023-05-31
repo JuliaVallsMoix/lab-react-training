@@ -1,4 +1,4 @@
-import './CreditCard.css';
+import '../styles/CreditCard.css';
 import visaLogo from '../assets/images/visa.png';
 import masterCardLogo from '../assets/images/MasterCard_Logo.svg.png';
 

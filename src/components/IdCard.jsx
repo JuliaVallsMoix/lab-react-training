@@ -1,4 +1,4 @@
-import './IdCard.css';
+import '../styles/IdCard.css';
 
 function getFormatedTime(date) {
     const day = date.toLocaleString('en-us', { weekday: 'short' });

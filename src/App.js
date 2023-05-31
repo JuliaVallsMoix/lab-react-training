@@ -4,7 +4,7 @@ import IdCard from './components/IdCard';
 import BoxColor from './components/BoxColor';
 import Random from './components/Random';
 import CreditCard from './components/CreditCard';
-import './components/CreditCard.css'
+import FaceBook from './components/FaceBook';
 
 function App() {
   return (
@@ -87,6 +87,11 @@ function App() {
             color="white"
           />
         </div>
+              </div>
+
+              <div>
+                <h2>FaceBook</h2>
+                <FaceBook />
               </div>
 
             </div>

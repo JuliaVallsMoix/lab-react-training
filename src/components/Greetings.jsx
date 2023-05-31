@@ -1,4 +1,4 @@
-import './Greetings.css';
+import '../styles/Greetings.css';
 
 export default function Greetings({ lang, children }) {
 
