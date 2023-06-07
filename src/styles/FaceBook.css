@@ -32,3 +32,16 @@ img {
 p {
     font-size: 1.3rem;
 }
+
+.btn-countries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.btn {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+

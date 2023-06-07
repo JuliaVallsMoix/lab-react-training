@@ -5,19 +5,20 @@ import BoxColor from './components/BoxColor';
 import Random from './components/Random';
 import CreditCard from './components/CreditCard';
 import FaceBook from './components/FaceBook';
+import RGBColorPIcker from './components/RGBColorPicker';
 
 function App() {
   return (
     <div className="App">
-     <h1>Ejercicio React</h1>
-     
-     <div>
-      <h2>Greetings</h2>
-       <Greetings lang="de">Ludwig</Greetings>
-       <Greetings lang="fr">François</Greetings>
-       <Greetings lang="es">?</Greetings>
-       <Greetings lang="en">?</Greetings>
-     </div>
+      <h1>Ejercicio React</h1>
+
+      <div>
+        <h2>Greetings</h2>
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">François</Greetings>
+        <Greetings lang="es">?</Greetings>
+        <Greetings lang="en">?</Greetings>
+      </div>
       <section className='card-container'>
         <h2>IdCard</h2>
         <IdCard
@@ -28,7 +29,7 @@ function App() {
           birth={new Date('1992-07-14')}
           picture="https://randomuser.me/api/portraits/men/44.jpg"
         />
-        
+
         <IdCard
           lastName="Delores "
           firstName="Obrien"
@@ -41,8 +42,8 @@ function App() {
 
       <div>
         <h2>Random</h2>
-        <Random min={1} max={6}/>
-        <Random min={1} max={100}/>
+        <Random min={1} max={6} />
+        <Random min={1} max={100} />
       </div>
 
       <div>
@@ -64,7 +65,7 @@ function App() {
             bgColor="#11aa99"
             color="white"
           />
-          
+
           <CreditCard
             type="Master Card"
             number="0123456789010995"
@@ -75,7 +76,7 @@ function App() {
             bgColor="#eeeeee"
             color="#222222"
           />
-          
+
           <CreditCard
             type="Visa"
             number="0123456789016984"
@@ -87,15 +88,21 @@ function App() {
             color="white"
           />
         </div>
-              </div>
+      </div>
 
-              <div>
-                <h2>FaceBook</h2>
-                <FaceBook />
-              </div>
+      <div>
+        <h2>FaceBook</h2>
+        <FaceBook />
+      </div>
 
-            </div>
-          );
-        }
+
+      <div>
+        <h2>RGBColorPicker</h2>
+        <RGBColorPIcker />
+      </div>
+
+    </div>
+  );
+}
 
 export default App;
