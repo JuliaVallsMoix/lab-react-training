@@ -18,7 +18,7 @@ export default function RGBColorPicker() {
                     <div className='color-box' style={{ backgroundColor: `rgb(${red}, ${green}, ${blue})` }} >
                     </div>
                     <p>
-                        {`rgb(${red}, ${green}, ${blue})`}
+                        {`(rgb(${red}, ${green}, ${blue})`}
                     </p>
                 </div>
             </div>
